@@ -2,6 +2,7 @@
 flowbite framework to be used
 **/
 <script setup lang="ts">
+
 </script>
 <template>
     <div class="advertFeatures_body_features_parent_wrapper flex justify-center mt-[240px] iphone-xr:mt-[170px] ipad-mini:mt-[270px] Nesthub:mt-5">
@@ -118,7 +119,7 @@ flowbite framework to be used
     <div class="advert-visualization_board_element_bg mt-10 md:mt-40 z-0">
             <img src="../assets/bg_background.png" alt="bg-cover" class="w-full">
     </div>
-    <div class="advert-visualization_board_wrapper flex justify-center  overflow-hidden relative -mt-[100px] iphone:-mt-[150px] surface-duo:-mt-[200px] md:-mt-[295px] surface-pro:-mt-[350px] Nesthub:-mt-[400px] Nesthub-max:-mt-[490px] h-[140px] iphone:h-[190px] md:h-[410px] lg:h-[610px] Nesthub-max:h-[730px]">
+    <div class="advert-visualization_board_wrapper flex justify-center  overflow-hidden relative -mt-[100px] iphone:-mt-[150px] surface-duo:-mt-[200px] md:-mt-[295px] surface-pro:-mt-[350px] Nesthub:-mt-[400px] Nesthub-max:-mt-[490px] laptop:-mt-[655px] h-[140px] iphone:h-[190px] md:h-[410px] lg:h-[610px] Nesthub-max:h-[730px]">
         <div class="advert-visualization_board_element-1 w-3/4 z-10 ">
             <img src="../assets/Dashboard.png" alt="dashboard" class="">
         </div>
