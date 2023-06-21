@@ -15,6 +15,9 @@ export default {
         'advert-color':'#ecf1ec',
         'unique-header':'#005542'
       },
+      backgroundImage: {
+        'testimony-bg': "url('./src/assets/banner-bg.png')",
+      },
       screens:{
         'ipad-mini':'768px',
         'Galaxy-Fold':'280px',
@@ -29,6 +32,10 @@ export default {
         'screen-collapse':'910px',
         'surface-pro':'912px',
         'laptop':'1920px',
+        'mid-laptop':"1366px",
+        'tricky':'1371px',
+        'tricky-2':'1693px',
+        'tricky-3':'2245px'
       },
       plugins: [
         require('flowbite/plugin'),

@@ -2,14 +2,14 @@
 </script>
 <template>
 <header class="sticky top-0 z-50 bg-white">
-      <div class="navbar_wrapper flex justify-between items-center border-b-[1px] py-6 lg:ml-9 lg:mr-9 ml-4 mr-2">
+      <div class="navbar_wrapper flex justify-between items-center border-b-[1px] py-6 lg:ml-9 lg:mr-9 ml-4 mr-2 ">
         <div class="navbar_elements f-full flex space-x-9 items-center">
           <div class="ele cursor-pointer">
             <img src="../assets/logo.svg">
           </div>
           <div class="navbar_element_2 lg:flex hidden  lg:space-x-8 lg:visible items-center">
            <p class="ml-5 text-greenfuse peer/product hover:text-green-400 py-3 font-normal border-hidden border-b-8">Product</p>
-           <div  class="hidden product-hidden-item peer-hover/product:grid-cols-4 peer-hover/product:ml-0 peer-hover/product:shadow-lg hover:shadow-lg peer-hover/product:gap-42 border-t-[1px] peer-hover/product:visible peer-hover/product:grid peer-hover/product:fixed peer-hover/product:top-[72px] peer-hover/product:-left-[32px] peer-hover/product:z-[440000] peer-hover/product:bg-white peer-hover/product:w-full hover:grid-cols-4 peer-hover/product:gap-42 hover:visible hover:grid hover:fixed hover:top-[72px] hover:ml-0 hover:-left-[32px] hover:z-[440000] hover:bg-white hover:w-full">
+           <div  class="hidden product-hidden-item peer-hover/product:grid-cols-4 peer-hover/product:ml-0 peer-hover/product:shadow-lg hover:shadow-lg peer-hover/product:gap-42 border-t-[1px]  peer-hover/product:visible peer-hover/product:grid peer-hover/product:fixed peer-hover/product:top-[72px] peer-hover/product:-left-[32px] peer-hover/product:z-[440000] peer-hover/product:bg-white peer-hover/product:w-full hover:grid-cols-4 peer-hover/product:gap-42 hover:visible hover:grid hover:fixed hover:top-[72px] hover:ml-0 hover:-left-[32px] hover:z-[440000] hover:bg-white hover:w-full">
                 <div class="product-hidden-grid-1 mt-10 pl-[32px] flex flex-col">
                   <p class="text-headfuse font-semibold text-lg cursor-pointer w-42 mb-5">Client Management</p>
                   <p class="text-greenfuse font-normal hover:text-green-400  cursor-pointer w-40 mb-3">CRM</p>

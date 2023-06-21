@@ -8,7 +8,7 @@ export default
   name:"App",
   components:{
     NavBar,AdvertBody,AdvertContent: defineAsyncComponent(() => import('./components/AdvertContent.vue')),AdvertFeatures:defineAsyncComponent(() => import('./components/AdvertFeatures.vue')),
-  }
+  Testimony:defineAsyncComponent(() => import('./components/Testimony.vue'))}
 }
 </script>
 
@@ -18,6 +18,8 @@ export default
 <AdvertBody/>
 <AdvertContent/>
 <AdvertFeatures/>
+<Testimony/>
+
 </template>
 
 <style scoped>
