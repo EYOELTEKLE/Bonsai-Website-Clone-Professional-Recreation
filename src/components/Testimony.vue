@@ -22,32 +22,32 @@ import {
             </DisclosureButton>
             <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-gray-500"> 
                 <div class="panel-hidden-parent">
-                    <div class="row1 flex items-center gap-14 mb-2">
+                    <div class="row1 flex items-center gap-4 iphone:gap-14 mb-2">
                         <div class="row1-image ">
                             <img src="/assets/Icons_Paper-1.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
-                        <p class="basis-2/4 -ml-7 w-[148px]">Payments</p>
+                        <p class="basis-2/4 ml-1 iphone:-ml-7 w-[160px] font-bold text-headfuse">Payments</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
-                    <div class="row2 flex items-center gap-14 mb-2">
+                    <div class="row2 flex items-center gap-4 iphone:gap-14 mb-2">
                         <div class="row2-image">
                             <img src="/assets/Icons_Activity.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
-                        <p class="basis-2/4 -ml-7 w-[148px]">Accounting</p>
+                        <p class="basis-2/4 ml-1 iphone:-ml-7 w-[160px] font-bold text-headfuse">Accounting</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
-                    <div class="row3 flex items-center gap-14 mb-2">
+                    <div class="row3 flex items-center gap-4 iphone:gap-14 mb-2">
                         <div class="row3-image ">
                             <img src="/assets/Icons_Paper-1.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
-                        <p class="basis-2/4 -ml-7 w-[148px]">Taxes</p>
+                        <p class="basis-2/4 ml-1 iphone:-ml-7 w-[160px] font-bold text-headfuse">Taxes</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
-                    <div class="row3 flex items-center gap-14 mb-2">
+                    <div class="row3 flex items-center gap-4 iphone:gap-14 mb-2">
                         <div class="row3-image ">
                             <img src="/assets/Icons_coin.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
-                        <p class="basis-2/4 -ml-7 w-[148px]">Banking</p>
+                        <p class="basis-2/4 ml-1 iphone:-ml-7 w-[160px] font-bold text-headfuse">Banking</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
                 </div>    
@@ -64,32 +64,32 @@ import {
             </DisclosureButton>
             <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-gray-500"> 
                 <div class="panel-hidden-parent">
-                    <div class="row1 flex items-center gap-14 mb-2">
+                    <div class="row1 flex items-center gap-4 iphone:gap-14 mb-2">
                         <div class="row1-image ">
                             <img src="/assets/Icon_Paper.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
-                        <p class="basis-2/4 -ml-7 w-[148px]">Contracts</p>
+                        <p class="basis-2/4 ml-1 iphone:-ml-7 w-[160px] font-bold text-headfuse">Contracts</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
-                    <div class="row2 flex items-center gap-14 mb-2">
+                    <div class="row2 flex items-center gap-4 iphone:gap-14 mb-2">
                         <div class="row2-image">
                             <img src="/assets/Icon_Document.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
-                        <p class="basis-2/4 -ml-7 w-[148px]">Forms</p>
+                        <p class="basis-2/4 ml-1 iphone:-ml-7 w-[160px] font-bold text-headfuse">Forms</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
-                    <div class="row3 flex items-center gap-14 mb-2">
+                    <div class="row3 flex items-center gap-4 iphone:gap-14 mb-2">
                         <div class="row3-image ">
                             <img src="/assets/Icon_Calendar.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
-                        <p class="basis-2/4 -ml-7 w-[148px]">Scheduling</p>
+                        <p class="basis-2/4 ml-1 iphone:-ml-7 w-[160px] font-bold text-headfuse">Scheduling</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
-                    <div class="row3 flex items-center gap-14 mb-2">
+                    <div class="row3 flex items-center gap-4 iphone:gap-14 mb-2 font-bold text-headfuse">
                         <div class="row3-image ">
                             <img src="/assets/Icons_coin.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
-                        <p class="basis-2/4 -ml-7 w-[148px]">Banking</p>
+                        <p class="basis-2/4 ml-1 iphone:-ml-7 w-[160px] font-bold text-headfuse">Banking</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
                 </div>    
@@ -106,32 +106,32 @@ import {
             </DisclosureButton>
             <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-gray-500"> 
                 <div class="panel-hidden-parent">
-                    <div class="row1 flex items-center gap-14 mb-2">
+                    <div class="row1 flex items-center gap-4 iphone:gap-14 mb-2">
                         <div class="row1-image ">
                             <img src="/assets/Icon_users.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
-                        <p class="basis-2/4 -ml-7 w-[148px]">CRM</p>
+                        <p class="basis-2/4 ml-1 iphone:-ml-7 w-[160px] font-bold text-headfuse">CRM</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
-                    <div class="row2 flex items-center gap-14 mb-2">
+                    <div class="row2 flex items-center gap-4 iphone:gap-14 mb-2">
                         <div class="row2-image">
                             <img src="/assets/Icons_envelope.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
-                        <p class="basis-2/4 -ml-7 w-[148px]">Invoicing</p>
+                        <p class="basis-2/4 ml-1 iphone:-ml-7 w-[160px] font-bold text-headfuse">Invoicing</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
-                    <div class="row3 flex items-center gap-14 mb-2">
+                    <div class="row3 flex items-center  gap-4 iphone:gap-14  mb-2">
                         <div class="row3-image ">
                             <img src="/assets/icons_timer.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
-                        <p class="basis-2/4 -ml-7 w-[148px]">Time Tracking</p>
+                        <p class="basis-2/4 ml-1 iphone:-ml-7 w-[160px] font-bold text-headfuse">Time Tracking</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
-                    <div class="row3 flex items-center gap-14 mb-2">
+                    <div class="row3 flex items-center gap-4 iphone:gap-14  mb-2">
                         <div class="row3-image ">
                             <img src="/assets/Icons_Tick-Square.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
-                        <p class="basis-2/4 -ml-7 w-[148px]">Project Management</p>
+                        <p class="basis-2/4 ml-1 iphone:-ml-7  w-[160px] font-bold text-headfuse">Project Management</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
                 </div>    
