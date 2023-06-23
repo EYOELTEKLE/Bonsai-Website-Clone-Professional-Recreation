@@ -16,7 +16,7 @@ export default {
         'unique-header':'#005542'
       },
       backgroundImage: {
-        'testimony-bg': "url('./src/assets/banner-bg.png')",
+        'testimony-bg': "url('/src/assets/banner-bg.png')",
       },
       screens:{
         'ipad-mini':'768px',
