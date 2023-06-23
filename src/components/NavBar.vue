@@ -5,7 +5,7 @@
       <div class="navbar_wrapper flex justify-between items-center border-b-[1px] py-6 lg:ml-9 lg:mr-9 ml-4 mr-2 ">
         <div class="navbar_elements f-full flex space-x-9 items-center">
           <div class="ele cursor-pointer">
-            <img src="../assets/logo.svg">
+            <img src="/assets/logo.svg">
           </div>
           <div class="navbar_element_2 lg:flex hidden  lg:space-x-8 lg:visible items-center">
            <p class="ml-5 text-greenfuse peer/product hover:text-green-400 py-3 font-normal border-hidden border-b-8">Product</p>
@@ -38,7 +38,7 @@
                 <div class="product-hidden-grid-4 flex mt-10 flex-col">
                   <p class="text-headfuse font-semibold text-lg cursor-pointer w-42 mb-5">What's new</p>
                     <div class="image_wrapper_element mb-3">
-                      <img src="../assets/scheduling-preview.jpg" class="max-w-42 w-[92px] h-[71px]" alt="">
+                      <img src="/assets/scheduling-preview.jpg" class="max-w-42 w-[92px] h-[71px]" alt="">
                     </div>
                   <p class="text-greenfuse font-normal hover:text-green-400  cursor-pointer w-42 mb-3">Branded scheduling portal</p>
                   <p class="font-bold text-sm text-green-400 b cursor-pointer w-40 mb-3 underline hover:no-underline ">Learn more</p>
@@ -103,7 +103,7 @@
           <button class="bg-green-600 rounded-full px-5 py-2 text-white font-semibold hover:bg-green-500">Start free</button>
         </div>
         <div class="navbar_hamburger  lg:hidden">
-          <img src="../assets/hamburger.svg" alt="">
+          <img src="/assets/hamburger.svg" alt="">
         </div>
       </div>
   </header>

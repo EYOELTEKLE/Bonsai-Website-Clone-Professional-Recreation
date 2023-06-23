@@ -24,28 +24,28 @@ import {
                 <div class="panel-hidden-parent">
                     <div class="row1 flex items-center gap-14 mb-2">
                         <div class="row1-image ">
-                            <img src="../assets/Icons_Paper-1.svg" alt="" class="w-[30px] h-[30px]">
+                            <img src="/assets/Icons_Paper-1.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
                         <p class="basis-2/4 -ml-7 w-[148px]">Payments</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
                     <div class="row2 flex items-center gap-14 mb-2">
                         <div class="row2-image">
-                            <img src="../assets/Icons_Activity.svg" alt="" class="w-[30px] h-[30px]">
+                            <img src="/assets/Icons_Activity.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
                         <p class="basis-2/4 -ml-7 w-[148px]">Accounting</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
                     <div class="row3 flex items-center gap-14 mb-2">
                         <div class="row3-image ">
-                            <img src="../assets/Icons_Paper-1.svg" alt="" class="w-[30px] h-[30px]">
+                            <img src="/assets/Icons_Paper-1.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
                         <p class="basis-2/4 -ml-7 w-[148px]">Taxes</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
                     <div class="row3 flex items-center gap-14 mb-2">
                         <div class="row3-image ">
-                            <img src="../assets/Icons_coin.svg" alt="" class="w-[30px] h-[30px]">
+                            <img src="/assets/Icons_coin.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
                         <p class="basis-2/4 -ml-7 w-[148px]">Banking</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
@@ -66,28 +66,28 @@ import {
                 <div class="panel-hidden-parent">
                     <div class="row1 flex items-center gap-14 mb-2">
                         <div class="row1-image ">
-                            <img src="../assets/Icon_Paper.svg" alt="" class="w-[30px] h-[30px]">
+                            <img src="/assets/Icon_Paper.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
                         <p class="basis-2/4 -ml-7 w-[148px]">Contracts</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
                     <div class="row2 flex items-center gap-14 mb-2">
                         <div class="row2-image">
-                            <img src="../assets/Icon_Document.svg" alt="" class="w-[30px] h-[30px]">
+                            <img src="/assets/Icon_Document.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
                         <p class="basis-2/4 -ml-7 w-[148px]">Forms</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
                     <div class="row3 flex items-center gap-14 mb-2">
                         <div class="row3-image ">
-                            <img src="../assets/Icon_Calendar.svg" alt="" class="w-[30px] h-[30px]">
+                            <img src="/assets/Icon_Calendar.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
                         <p class="basis-2/4 -ml-7 w-[148px]">Scheduling</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
                     <div class="row3 flex items-center gap-14 mb-2">
                         <div class="row3-image ">
-                            <img src="../assets/Icons_coin.svg" alt="" class="w-[30px] h-[30px]">
+                            <img src="/assets/Icons_coin.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
                         <p class="basis-2/4 -ml-7 w-[148px]">Banking</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
@@ -108,28 +108,28 @@ import {
                 <div class="panel-hidden-parent">
                     <div class="row1 flex items-center gap-14 mb-2">
                         <div class="row1-image ">
-                            <img src="../assets/Icon_users.svg" alt="" class="w-[30px] h-[30px]">
+                            <img src="/assets/Icon_users.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
                         <p class="basis-2/4 -ml-7 w-[148px]">CRM</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
                     <div class="row2 flex items-center gap-14 mb-2">
                         <div class="row2-image">
-                            <img src="../assets/Icons_envelope.svg" alt="" class="w-[30px] h-[30px]">
+                            <img src="/assets/Icons_envelope.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
                         <p class="basis-2/4 -ml-7 w-[148px]">Invoicing</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
                     <div class="row3 flex items-center gap-14 mb-2">
                         <div class="row3-image ">
-                            <img src="../assets/Icons_timer.svg" alt="" class="w-[30px] h-[30px]">
+                            <img src="/assets/icons_timer.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
                         <p class="basis-2/4 -ml-7 w-[148px]">Time Tracking</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
                     </div>
                     <div class="row3 flex items-center gap-14 mb-2">
                         <div class="row3-image ">
-                            <img src="../assets/Icons_Tick-Square.svg" alt="" class="w-[30px] h-[30px]">
+                            <img src="/assets/Icons_Tick-Square.svg" alt="" class="w-[30px] h-[30px]">
                         </div>
                         <p class="basis-2/4 -ml-7 w-[148px]">Project Management</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 "> <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" /> </svg>
@@ -146,13 +146,13 @@ import {
       </div>
       <div class="grid-2 flex justify-end col-start-2 md:mt-80 md:-ml-3 gap-8 mid-laptop:-ml-14 laptop:ml-18 row-start-1 row-end-2 mt-5  mr-10 absolute ">
         <div class="w-[78.4px] h-[78.4px] hover:scale-125 transition delay-300 duration-100 ease-in-out iphone:w-[181.33px] iphone:h-[181.33px] iphone:md:w-[301px] -ml-42  laptop:-ml-32">
-          <img src="../assets/banner-profile.png" alt="" loading="lazy" class="w-[78.4px] h-[78.4px] iphone:h-[181.33px] iphone:w-[181.33px] md:w-[301px] md:h-[301px] md:min-w-[301px]">
+          <img src="/assets/banner-profile.png" alt="" loading="lazy" class="w-[78.4px] h-[78.4px] iphone:h-[181.33px] iphone:w-[181.33px] md:w-[301px] md:h-[301px] md:min-w-[301px]">
         </div>
         <div class="child2  mr-2 w-[301px] h-[301px] hover:scale-125 transition delay-300 duration-100 ease-in-out hidden Nesthub:visible Nesthub:flex">
-          <img src="../assets/banner-profile-2.png" alt="" loading="lazy" class="w-[78.4px] h-[78.4px] iphone:h-[181.33px] iphone:w-[181.33px] md:w-[301px] md:h-[301px] md:min-w-[301px]">
+          <img src="/assets/banner-profile-2.png" alt="" loading="lazy" class="w-[78.4px] h-[78.4px] iphone:h-[181.33px] iphone:w-[181.33px] md:w-[301px] md:h-[301px] md:min-w-[301px]">
         </div>
         <div class="child3 mr-2 w-[301px] h-[301px] hidden hover:scale-125  transition delay-300 duration-100 ease-in-out laptop:flex laptop:visible ">
-          <img src="../assets/banner-profile-3.png" alt="" loading="lazy" class="w-[78.4px] h-[78.4px] iphone:h-[181.33px] iphone:w-[181.33px] md:w-[301px] md:h-[301px] md:min-w-[301px]">
+          <img src="/assets/banner-profile-3.png" alt="" loading="lazy" class="w-[78.4px] h-[78.4px] iphone:h-[181.33px] iphone:w-[181.33px] md:w-[301px] md:h-[301px] md:min-w-[301px]">
         </div>
       </div>
       <div class="grid-4 row-start-3 ml-8 flex flex-col justify-start items-start ">

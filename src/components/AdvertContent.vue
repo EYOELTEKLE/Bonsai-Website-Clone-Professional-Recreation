@@ -10,15 +10,15 @@
   </div>
   <div class="advert-content_image_grid-1 row-span-2 col-span-1 flex  -ml-30 overflow-hidden justify-center align-middle relative">
     <div class="advent-content_sub_image-grid-1-1 absolute z-30">
-      <img src="../assets/advert-image.png" loading="lazy" class="w-60 h-70 mt-14 mr-2 " alt="">
+      <img src="/assets/advert-image.png" loading="lazy" class="w-60 h-70 mt-14 mr-2 " alt="">
     </div>
     <div class="advent-content_sub_image-grid-1-2 absolute top-0 z-0">
-      <img src="../assets/tree-background.png" loading="lazy" class="" alt="">
+      <img src="/assets/tree-background.png" loading="lazy" class="" alt="">
     </div>
     <div class="advert-content_sub_image-grid_background_image_wrapper aboslute bg-orange-500 z-20 w-60 h-[302px] mt-[85px] top-0 mr-2 rounded-tr-3xl rounded-bl-3xl"></div>
     <div class="advert-content_sub_mojo_invoice_paid absolute md:grid hidden md:visible grid-rows-2 grid-cols-2 bg-white border-black-200 top-[270px] -ml-60 z-30 py-1 pr-2 rounded-md">
       <div class="advert-content_sub_mojo_invoice_paid_row_1_item  md:flex row-span-2 justify-end mr-2 align-middle px-4 mt-2">
-        <img src="../assets/contact.svg" alt="" loading="lazy" class="h-10">
+        <img src="/assets/contact.svg" alt="" loading="lazy" class="h-10">
       </div>
       <div class="row_2 advert-content_sub_mojo_invoice_paid_row_2_item  ">
         <h2 class="text-sm text-gray-400 ">$4,500</h2>
@@ -29,7 +29,7 @@
     </div>
     <div class="advert-content_sub_mojo_intake_lead absolute md:grid hidden md:visible grid-rows-2 grid-cols-2 bg-white border-black-200 top-[170px] h-[57px] w-[240px] mx-w-[240px]  mx-h-[57px] ipad-mini:left-[470px] ipad-air:left-[450px] tricky:ml-10 tricky-2:ml-[14%] tricky-3:ml-[14%] screen-collapse:ml-9 lg:-ml-9 lg:left-[345px] laptop:left-[400px] laptop:ml-32 pl-2 mr-7 z-30 py-1 pb-4 pr-1 rounded-md">
       <div class="advert-content_sub_mojo_intake_lead_row_1_item hidden md:visible md:flex row-span-2 pl-4 justify-start align-middle px-2 mt-2">
-        <img src="../assets/notification.svg" alt="" loading="lazy" class="h-8">
+        <img src="/assets/notification.svg" alt="" loading="lazy" class="h-8">
       </div>
       <div class="advert-content_sub_mojo_intake_lead_row_2_item hidden md:visible md:flex -ml-12  align-middle">
         <h2 class="text-sm text-gray-400 mb-2">New lead</h2>
@@ -40,7 +40,7 @@
     </div>
     <div class="advert-content_sub_mojo_expense_deducted absolute hidden md:visible md:grid grid-rows-2 grid-cols-2 bg-white border-black-200 top-[270px] h-[57px] w-[240px] mx-w-[240px] mx-h-[57px] ipad-mini:left-[470px] tricky:ml-10 tricky-2:ml-[14%] tricky-3:ml-[14%] screen-collapse:ml-9 lg:-ml-9 ipad-air:left-[450px] lg:left-[345px] laptop:left-[400px] laptop:ml-32 pl-2 mr-7 z-30 py-1 pb-4 pr-1 rounded-md">
       <div class="advert-content_sub_mojo_expense_deducted_row_1_item hidden md:visible md:flex row-span-2 pl-4 justify-start align-middle px-2 mt-2">
-        <img src="../assets/notification-icons.svg" alt="" loading="lazy" class="h-8">
+        <img src="/assets/notification-icons.svg" alt="" loading="lazy" class="h-8">
       </div>
       <div class="advert-content_sub_mojo_expense_deducted_row_2_item -ml-12 hidden md:visible md:flex align-middle">
         <h2 class="text-sm text-gray-400 mb-2">300$</h2>
