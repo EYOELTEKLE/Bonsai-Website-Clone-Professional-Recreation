@@ -52,7 +52,7 @@ flowbite framework to be used
         </div>
       </div>
     </div>
-    <h1 class="font-extrabold text-2xl md:text-4xl text-center text-headfuse  mt-24 mb-2">Cut costs, not features.</h1>
+    <h1 class="font-extrabold hidden md:visible md:text-center md:flex md:justify-center text-2xl md:text-4xl text-center text-headfuse  mt-24 mb-2">Cut costs, not features.</h1>
     <div class="specific_features_parent_wrapper hidden mt-20 md:visible md:flex md:flex-col justify-content items-center">
       <div class="specific_features_wrapper_parent_grid ipad-mini:ml-9 Nesthub:ml-0 grid-cols-3 grid">
         <div class="specific_features_wrapper_parent_grid_1 border-r-2 flex flex-col justify-center items-center">
