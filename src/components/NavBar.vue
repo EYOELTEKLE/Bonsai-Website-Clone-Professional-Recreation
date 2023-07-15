@@ -1,4 +1,20 @@
-<script setup lang="ts">
+<script lang="ts">
+import {ref} from 'vue';
+      export default{
+          setup(){
+          let view = ref(false);
+          function handle()
+          {
+           view.value = !view.value;
+          } ;
+          return {
+              view,
+              handle
+            }
+    
+          }
+      }
+      
 </script>
 <template>
 <header class="sticky top-0 z-50 bg-white">
@@ -102,8 +118,11 @@
           <p class="hover:bg-slate-100 hover:rounded-full hover:py-2 hover:px-6 px-6 font-semibold cursor-pointer">Log In</p>
           <button class="bg-green-600 rounded-full px-5 py-2 text-white font-semibold hover:bg-green-500">Start free</button>
         </div>
-        <div class="navbar_hamburger  lg:hidden">
+        <div class="navbar_hamburger  lg:hidden" @click="handle">
           <img src="/assets/hamburger.svg" alt="">
+        </div>
+        <div class="drop-down_hamburger absolute top-0 -z-50" v-if="view">
+          <h1>check!</h1>
         </div>
       </div>
   </header>
