@@ -1,15 +1,34 @@
 <script lang="ts">
-import {ref} from 'vue';
+import {ref,computed} from 'vue';
       export default{
           setup(){
           let view = ref(false);
+          let clicked = ref(false);
+          function delay(time:number) {
+              return new Promise(resolve => setTimeout(resolve, time));
+}
+      const classOject = computed(() => ({
+  popDown: view.value && clicked.value,
+  popUp: !view.value && clicked.value
+}))
           function handle()
           {
-           view.value = !view.value;
+            clicked.value = true;
+
+            if(!clicked.value || clicked.value || !view.value)
+            {
+              delay(130).then(() => {console.log("done executing")
+              
+            view.value = !view.value
+            })
+            }
+            
           } ;
           return {
               view,
-              handle
+              handle,
+              clicked,
+              classOject
             }
     
           }
@@ -121,11 +140,51 @@ import {ref} from 'vue';
         <div class="navbar_hamburger  lg:hidden" @click="handle">
           <img src="/assets/hamburger.svg" alt="">
         </div>
-        <div class="drop-down_hamburger absolute top-0 -z-50" v-if="view">
-          <h1>check!</h1>
-        </div>
       </div>
   </header>
+  <div class="drop-down_hamburger  z-[1000] top-0 bg-red-600 fixed" :class="classOject" 
+  v-if="view">
+          <h1>check!</h1>
+  </div>
 </template>
-<style>
+<style >
+  .popDown
+  {
+    animation-name:popDown;
+    animation-delay: .4s;
+    animation-fill-mode: forwards;
+
+  }
+  .popUp
+  {
+    animation-name:popUp;
+    animation-delay: .4s;
+    animation-fill-mode: forwards;
+    transform: 3s;
+    
+  }
+  @keyframes popDown
+    {
+      90% 
+      {
+        transform:translateY(88px);
+        opacity:1;
+
+      }
+      100% 
+      {
+      transform:translateY(92px);
+      opacity:1}
+    } 
+
+    @keyframes popUp
+    {
+      90% {
+      opacity:1;
+      transform:translateY(-72px)
+    }
+      100% {transform:translateY(-90px);
+      opacity:1
+      }
+    } 
 </style>

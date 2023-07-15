@@ -41,7 +41,6 @@ export default {
         require('flowbite/plugin'),
         require('v-lazy-image')
       ],
-    
     },
    
   },
