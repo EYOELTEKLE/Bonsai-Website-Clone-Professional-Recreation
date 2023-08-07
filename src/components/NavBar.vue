@@ -1,12 +1,15 @@
-<script lang="ts">
+<script  lang="ts">
+import MobileDropDown from "./mobileDropDown.vue";
 import {ref,computed} from 'vue';
       export default{
+        components:{MobileDropDown},
           setup(){
           let view = ref(false);
           let clicked = ref(false);
           function delay(time:number) {
               return new Promise(resolve => setTimeout(resolve, time));
 }
+  
       const classOject = computed(() => ({
   popDown: view.value && clicked.value,
   popUp: !view.value && clicked.value
@@ -36,7 +39,7 @@ import {ref,computed} from 'vue';
       
 </script>
 <template>
-<header class="sticky top-0 z-50 bg-white">
+<header class="sticky top-0 z-50 bg-white ">
       <div class="navbar_wrapper flex justify-between items-center border-b-[1px] py-6 lg:ml-9 lg:mr-9 ml-4 mr-2 ">
         <div class="navbar_elements f-full flex space-x-9 items-center">
           <div class="ele cursor-pointer">
@@ -142,9 +145,11 @@ import {ref,computed} from 'vue';
         </div>
       </div>
   </header>
-  <div class="drop-down_hamburger  z-[1000] top-0 bg-red-600 fixed" :class="classOject" 
+  <div class="drop-down_hamburger  z-40 top-0 fixed lg:hidden" :class="classOject" 
   v-if="view">
-          <h1>check!</h1>
+          <div class="drop-down_parent_wrapper">
+            <MobileDropDown/>
+          </div>
   </div>
 </template>
 <style >
@@ -165,10 +170,13 @@ import {ref,computed} from 'vue';
   }
   @keyframes popDown
     {
+      0%{
+        visibility: hidden;
+      }
       90% 
       {
         transform:translateY(88px);
-        opacity:1;
+        opacity:0;
 
       }
       100% 
