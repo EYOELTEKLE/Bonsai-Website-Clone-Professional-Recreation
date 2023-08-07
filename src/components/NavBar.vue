@@ -1,5 +1,5 @@
 <script  lang="ts">
-import MobileDropDown from "./mobileDropDown.vue";
+import MobileDropDown from "./MobileDropDown.vue";
 import {ref,computed} from 'vue';
       export default{
         components:{MobileDropDown},
