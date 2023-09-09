@@ -20,7 +20,7 @@ import {ref,computed} from 'vue';
 
             if(!clicked.value || clicked.value || !view.value)
             {
-              delay(130).then(() => {console.log("done executing")
+              delay(100).then(() => {console.log("done executing")
               
             view.value = !view.value
             })
@@ -145,9 +145,9 @@ import {ref,computed} from 'vue';
         </div>
       </div>
   </header>
-  <div class="drop-down_hamburger  z-40 top-0 fixed lg:hidden" :class="classOject" 
+  <div class="drop-down_hamburger w-screen z-40 top-0 fixed lg:hidden" :class="classOject" 
   v-if="view">
-          <div class="drop-down_parent_wrapper">
+          <div class="drop-down_parent_wrapper bg-white">
             <MobileDropDown/>
           </div>
   </div>
@@ -173,6 +173,12 @@ import {ref,computed} from 'vue';
       0%{
         visibility: hidden;
       }
+
+      25%
+      {
+        transform:translateY(44pxpx);
+        opacity:0;
+      }
       90% 
       {
         transform:translateY(88px);
@@ -187,6 +193,11 @@ import {ref,computed} from 'vue';
 
     @keyframes popUp
     {
+      25%
+      {
+        transform:translateY(44pxpx);
+        opacity:0;
+      }
       90% {
       opacity:1;
       transform:translateY(-72px)
