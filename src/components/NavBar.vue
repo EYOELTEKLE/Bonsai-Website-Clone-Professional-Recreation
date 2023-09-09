@@ -156,14 +156,14 @@ import {ref,computed} from 'vue';
   .popDown
   {
     animation-name:popDown;
-    animation-delay: .4s;
+    animation-delay: .2s;
     animation-fill-mode: forwards;
 
   }
   .popUp
   {
     animation-name:popUp;
-    animation-delay: .4s;
+    animation-delay: .2s;
     animation-fill-mode: forwards;
     transform: 3s;
     
