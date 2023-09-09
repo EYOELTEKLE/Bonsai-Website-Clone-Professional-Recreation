@@ -1,7 +1,45 @@
-<script setup lang="ts">
+<script  lang="ts">
+import MobileDropDown from "./MobileDropDown.vue";
+import {ref,computed} from 'vue';
+      export default{
+        components:{MobileDropDown},
+          setup(){
+          let view = ref(false);
+          let clicked = ref(false);
+          function delay(time:number) {
+              return new Promise(resolve => setTimeout(resolve, time));
+}
+  
+      const classOject = computed(() => ({
+  popDown: view.value && clicked.value,
+  popUp: !view.value && clicked.value
+}))
+          function handle()
+          {
+            clicked.value = true;
+
+            if(!clicked.value || clicked.value || !view.value)
+            {
+              delay(100).then(() => {console.log("done executing")
+              
+            view.value = !view.value
+            })
+            }
+            
+          } ;
+          return {
+              view,
+              handle,
+              clicked,
+              classOject
+            }
+    
+          }
+      }
+      
 </script>
 <template>
-<header class="sticky top-0 z-50 bg-white">
+<header class="sticky top-0 z-50 bg-white ">
       <div class="navbar_wrapper flex justify-between items-center border-b-[1px] py-6 lg:ml-9 lg:mr-9 ml-4 mr-2 ">
         <div class="navbar_elements f-full flex space-x-9 items-center">
           <div class="ele cursor-pointer">
@@ -102,11 +140,70 @@
           <p class="hover:bg-slate-100 hover:rounded-full hover:py-2 hover:px-6 px-6 font-semibold cursor-pointer">Log In</p>
           <button class="bg-green-600 rounded-full px-5 py-2 text-white font-semibold hover:bg-green-500">Start free</button>
         </div>
-        <div class="navbar_hamburger  lg:hidden">
+        <div class="navbar_hamburger  lg:hidden" @click="handle">
           <img src="/assets/hamburger.svg" alt="">
         </div>
       </div>
   </header>
+  <div class="drop-down_hamburger w-screen z-40 top-0 fixed lg:hidden" :class="classOject" 
+  v-if="view">
+          <div class="drop-down_parent_wrapper bg-white">
+            <MobileDropDown/>
+          </div>
+  </div>
 </template>
-<style>
+<style >
+  .popDown
+  {
+    animation-name:popDown;
+    animation-delay: .2s;
+    animation-fill-mode: forwards;
+
+  }
+  .popUp
+  {
+    animation-name:popUp;
+    animation-delay: .2s;
+    animation-fill-mode: forwards;
+    transform: 3s;
+    
+  }
+  @keyframes popDown
+    {
+      0%{
+        visibility: hidden;
+      }
+
+      25%
+      {
+        transform:translateY(44pxpx);
+        opacity:0;
+      }
+      90% 
+      {
+        transform:translateY(88px);
+        opacity:0;
+
+      }
+      100% 
+      {
+      transform:translateY(92px);
+      opacity:1}
+    } 
+
+    @keyframes popUp
+    {
+      25%
+      {
+        transform:translateY(44pxpx);
+        opacity:0;
+      }
+      90% {
+      opacity:1;
+      transform:translateY(-72px)
+    }
+      100% {transform:translateY(-90px);
+      opacity:1
+      }
+    } 
 </style>
